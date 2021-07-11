@@ -32,7 +32,7 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: python-helloworld:latest
+          tags: aerox86/python-helloworld:latest
           
 
 
