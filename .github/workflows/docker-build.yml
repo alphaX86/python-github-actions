@@ -31,8 +31,8 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          platforms: linux/arm64, linux/amd64
-          tags: {{ YOUR_DOCKERHUB_REPOSITORY }}/python-helloworld:latest
+          platforms: linux/amd64
+          tags: python-helloworld:latest
           
 
 
